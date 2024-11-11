@@ -1,8 +1,7 @@
-const Sum = (fNum, sNum) => {
+module.exports.Sum = (fNum, sNum) => {
   return fNum + sNum;
 };
 
-const sub = (fNum, sNUM) => {
+module.exports.Sub = (fNum, sNUM) => {
   return fNum - sNUM;
 };
-module.exports = Sum;
